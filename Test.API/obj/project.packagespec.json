@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/mateusz/RiderProjects/CQRS/Test.Application/Test.Application.csproj": {
+            "projectPath": "/Users/mateusz/RiderProjects/CQRS/Test.Application/Test.Application.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -25,6 +29,20 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Convey": {
+          "target": "Package",
+          "version": "[0.4.327, )"
+        },
+        "Convey.CQRS.Commands": {
+          "target": "Package",
+          "version": "[0.4.327, )"
+        },
+        "Convey.CQRS.Queries": {
+          "target": "Package",
+          "version": "[0.4.327, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

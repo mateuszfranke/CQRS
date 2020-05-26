@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "85x1or5grCb54myNCTSGkX4F/5/rXp+/g8OHkqzsAkOHUixBvrQuQtfD/2sVa8tXy/Cyf3Nz+6n1WCLDeblmeQ==",
+  "dgSpecHash": "lYU/rxLfZh87blSeWo6sAUFRgkpYFbOAeVNG3E4K/CpjfZQEtggWZ3McNtSxhNGuuwzDKLWKDx0TgFn7C7zo7A==",
   "success": true,
   "projectFilePath": "/Users/mateusz/RiderProjects/CQRS/Test.Application/Test.Application.csproj",
   "expectedPackageFiles": [
     "/Users/mateusz/.nuget/packages/convey/0.4.327/convey.0.4.327.nupkg.sha512",
+    "/Users/mateusz/.nuget/packages/convey.cqrs.commands/0.4.327/convey.cqrs.commands.0.4.327.nupkg.sha512",
+    "/Users/mateusz/.nuget/packages/convey.cqrs.queries/0.4.327/convey.cqrs.queries.0.4.327.nupkg.sha512",
     "/Users/mateusz/.nuget/packages/figgle/0.3.0/figgle.0.3.0.nupkg.sha512",
     "/Users/mateusz/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/mateusz/.nuget/packages/microsoft.dotnet.platformabstractions/2.1.0/microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",

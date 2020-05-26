@@ -18,6 +18,30 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Convey.CQRS.Commands/0.4.327": {
+        "type": "package",
+        "dependencies": {
+          "Convey": "0.4.327"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Convey.CQRS.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Convey.CQRS.Commands.dll": {}
+        }
+      },
+      "Convey.CQRS.Queries/0.4.327": {
+        "type": "package",
+        "dependencies": {
+          "Convey": "0.4.327"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Convey.CQRS.Queries.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Convey.CQRS.Queries.dll": {}
+        }
+      },
       "Figgle/0.3.0": {
         "type": "package",
         "dependencies": {
@@ -1388,6 +1412,30 @@
         "convey.0.4.327.nupkg.sha512",
         "convey.nuspec",
         "lib/netcoreapp3.1/Convey.dll"
+      ]
+    },
+    "Convey.CQRS.Commands/0.4.327": {
+      "sha512": "7eejAtbGFX97f2e7I2QM3Qmd07NevcW+yjBcgR92VNdjZw4sUwsA+9hoO+bE+nE0fxn7eOeYld2VdP1xb+Gg0A==",
+      "type": "package",
+      "path": "convey.cqrs.commands/0.4.327",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "convey.cqrs.commands.0.4.327.nupkg.sha512",
+        "convey.cqrs.commands.nuspec",
+        "lib/netcoreapp3.1/Convey.CQRS.Commands.dll"
+      ]
+    },
+    "Convey.CQRS.Queries/0.4.327": {
+      "sha512": "oC/6YQ0Z3DXsZ+3ZI812+NC+pJwltCdvim0gKdIREgE4QSVqE3K78JpPP2QRxuXC+bUgvB2I7Fb7O3+ERh5Rdg==",
+      "type": "package",
+      "path": "convey.cqrs.queries/0.4.327",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "convey.cqrs.queries.0.4.327.nupkg.sha512",
+        "convey.cqrs.queries.nuspec",
+        "lib/netcoreapp3.1/Convey.CQRS.Queries.dll"
       ]
     },
     "Figgle/0.3.0": {
@@ -4968,7 +5016,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Convey >= 0.4.327"
+      "Convey >= 0.4.327",
+      "Convey.CQRS.Commands >= 0.4.327",
+      "Convey.CQRS.Queries >= 0.4.327"
     ]
   },
   "packageFolders": {
@@ -5007,6 +5057,14 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Convey": {
+            "target": "Package",
+            "version": "[0.4.327, )"
+          },
+          "Convey.CQRS.Commands": {
+            "target": "Package",
+            "version": "[0.4.327, )"
+          },
+          "Convey.CQRS.Queries": {
             "target": "Package",
             "version": "[0.4.327, )"
           }

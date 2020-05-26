@@ -29,6 +29,14 @@
         "Convey": {
           "target": "Package",
           "version": "[0.4.327, )"
+        },
+        "Convey.CQRS.Commands": {
+          "target": "Package",
+          "version": "[0.4.327, )"
+        },
+        "Convey.CQRS.Queries": {
+          "target": "Package",
+          "version": "[0.4.327, )"
         }
       },
       "imports": [

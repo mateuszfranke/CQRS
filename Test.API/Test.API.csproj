@@ -5,7 +5,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
+      <PackageReference Include="Convey" Version="0.4.327" />
+      <PackageReference Include="Convey.CQRS.Commands" Version="0.4.327" />
+      <PackageReference Include="Convey.CQRS.Queries" Version="0.4.327" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Test.Application\Test.Application.csproj" />
     </ItemGroup>
 
 

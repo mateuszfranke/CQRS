@@ -1,0 +1,9 @@
+/Users/mateusz/RiderProjects/CQRS/Test.Application/bin/Debug/netcoreapp3.1/Test.Application.deps.json
+/Users/mateusz/RiderProjects/CQRS/Test.Application/bin/Debug/netcoreapp3.1/Test.Application.dll
+/Users/mateusz/RiderProjects/CQRS/Test.Application/bin/Debug/netcoreapp3.1/Test.Application.pdb
+/Users/mateusz/RiderProjects/CQRS/Test.Application/obj/Debug/netcoreapp3.1/Test.Application.csprojAssemblyReference.cache
+/Users/mateusz/RiderProjects/CQRS/Test.Application/obj/Debug/netcoreapp3.1/Test.Application.csproj.CoreCompileInputs.cache
+/Users/mateusz/RiderProjects/CQRS/Test.Application/obj/Debug/netcoreapp3.1/Test.Application.AssemblyInfoInputs.cache
+/Users/mateusz/RiderProjects/CQRS/Test.Application/obj/Debug/netcoreapp3.1/Test.Application.AssemblyInfo.cs
+/Users/mateusz/RiderProjects/CQRS/Test.Application/obj/Debug/netcoreapp3.1/Test.Application.dll
+/Users/mateusz/RiderProjects/CQRS/Test.Application/obj/Debug/netcoreapp3.1/Test.Application.pdb
